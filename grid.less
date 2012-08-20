@@ -4,16 +4,19 @@
  * adapted from Andy Taylor's cssgrid.net
  */
 
+@grid-width: 960px;
+@grid-padding: 10px;
+
 .container {
   margin: 0 auto;
-  max-width: 1120px;
-  padding: 0 20px;
+  max-width: @grid-width - @grid-padding;
+  padding: 0 @grid-padding;
   position: relative;
 }
 
 .row {
   margin-left: -1.745%;
-  max-width: 1140px;
+  max-width: @grid-width;
   overflow: hidden;
 }
 
