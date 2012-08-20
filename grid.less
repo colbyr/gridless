@@ -1,5 +1,5 @@
 /**
- * ! GridLESS by Colby Rabideau
+ * GridLESS by Colby Rabideau
  *
  * A strange combination of cssgrid.net and csswizardry.com/inuitcss
  */
@@ -84,7 +84,7 @@ img {
 
 /* Smaller screens */
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: @grid-tablet) {
 
   body {
     font-size: 0.8em;
@@ -96,7 +96,7 @@ img {
 
 /* Mobile */
 
-@media handheld, only screen and (max-width: 767px) {
+@media handheld, only screen and (max-width: @grid-mobile) {
 
   body {
     font-size: 16px;
