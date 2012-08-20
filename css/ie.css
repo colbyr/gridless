@@ -1,43 +1,43 @@
-.onecol {
-width: 4.7%;
+.row .one {
+  width: 4.7%;
 }
 
-.twocol {
-width: 13.2%;
+.row .two {
+  width: 13.2%;
 }
 
-.threecol {
-width: 22.05%;
+.row .three {
+  width: 22.05%;
 }
 
-.fourcol {
-width: 30.6%;
+.row .four {
+  width: 30.6%;
 }
 
-.fivecol {
-width: 39%;
+.row .five {
+  width: 39%;
 }
 
-.sixcol {
-width: 48%;
+.row .six {
+  width: 48%;
 }
 
-.sevencol {
-width: 56.75%;
+.row .seven {
+  width: 56.75%;
 }
 
-.eightcol {
-width: 61.6%;
+.row .eight {
+  width: 61.6%;
 }
 
-.ninecol {
-width: 74.05%;
+.row .nine {
+  width: 74.05%;
 }
 
-.tencol {
-width: 82%;
+.row .ten {
+  width: 82%;
 }
 
-.elevencol {
-width: 91.35%;
+.row .eleven {
+  width: 91.35%;
 }
