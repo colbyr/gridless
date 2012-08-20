@@ -1,6 +1,6 @@
-# GridLESS
+# Gridless
 
-A 12-column grid system written in LESS.
+A [less CSS](lesscss.org) 12-column grid system.
 Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry.com/inuitcss).
 
 ## Basic Usage
