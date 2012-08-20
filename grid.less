@@ -1,16 +1,16 @@
 /**
- * ! 1140 CSS Grid by Colby Rabideau
+ * ! GridLESS by Colby Rabideau
  *
- * adapted from Andy Taylor's cssgrid.net
+ * A strange combination of cssgrid.net and csswizardry.com/inuitcss
  */
 
-@grid-width: 960px;
-@grid-padding: 10px;
+@grid-width: 1140px;
+@grid-padding: 20px;
 
 .container {
   margin: 0 auto;
-  max-width: @grid-width - @grid-padding;
-  padding: 0 @grid-padding;
+  max-width: @grid-width - 20;
+  padding: 0 20px;
   position: relative;
 }
 
@@ -104,18 +104,13 @@ img {
     -webkit-text-size-adjust: none;
   }
 
-  .row, body, .container {
-    margin-left: 0px;
-    margin-right: 0px;
-    min-width: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
+  .row {
+    margin-left: 0;
   }
 
   .row .col {
     float: none;
-    padding: 0 20px;
+    margin-left: 0;
     width: auto;
   }
 
