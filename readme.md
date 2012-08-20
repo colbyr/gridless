@@ -1,8 +1,28 @@
-# 1140 CSS Grid
+# GridLESS
 
-based on [Andy Taylor](http://andytaylor.me)'s [1140 CSS Grid](http://cssgrid.net/)
-
-## Browser Support
-Nicely correlated with browser support for [:first-child](https://developer.mozilla.org/en-US/docs/CSS/:first-child).
+A 12-column grid system written in LESS.
+Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry.com/inuitcss).
 
 ## Basic Usage
+
+```html
+...
+<div class="container">
+  <div class="row">
+    <div class="col three">
+      Three columns
+    </div>
+    <div class="col six">
+      Six columns
+    </div>
+    <div class="col three">
+      Three columns
+    </div>
+  </div>
+</div>
+...
+```
+
+## Configuration
+
+Configuration options can be set in `grid-config.less`
