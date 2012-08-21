@@ -9,13 +9,13 @@ Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry
 ...
 <body class="container">
   <div class="row">
-    <div class="col three">
+    <div class="col-3">
       Three columns
     </div>
-    <div class="col six">
+    <div class="col-6">
       Six columns
     </div>
-    <div class="col three">
+    <div class="col-3">
       Three columns
     </div>
   </div>
@@ -26,7 +26,7 @@ Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry
 ## Things to Note:
 
 1. Keep the `.container` class on `<body>` where possible.
-2. Notice unlike many other grids, gridless does use a `.last` class (kudos to [csswizardry](http://csswizardry.com)).
-3. Elements the overflow into a new row simply wrap into a new one.
+2. Notice unlike many other grids, gridless does use a `.last` class (kudos [csswizardry](http://csswizardry.com)).
+3. Elements that overflow into a new row simply wrap into a new one.
 4. Configuration options can be set in `grid-config.less`.
 
