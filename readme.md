@@ -1,13 +1,13 @@
 # Gridless
 
-A [less CSS](lesscss.org) 12-column grid system.
+A lightweight, 12-column grid in [Less CSS](http://lesscss.org).
 Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry.com/inuitcss).
 
 ## Basic Usage
 
 ```html
 ...
-<div class="container">
+<body class="container">
   <div class="row">
     <div class="col three">
       Three columns
@@ -19,10 +19,14 @@ Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry
       Three columns
     </div>
   </div>
-</div>
+</body>
 ...
 ```
 
-## Configuration
+## Things to Note:
 
-Configuration options can be set in `grid-config.less`
+1. Keep the `.container` class on `<body>` where possible.
+2. Notice unlike many other grids, gridless does use a `.last` class (kudos to [csswizardry](http://csswizardy.com)).
+3. Elements the overflow into a new row simply wrap into a new one.
+4. Configuration options can be set in `grid-config.less`.
+
