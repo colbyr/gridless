@@ -26,7 +26,7 @@ Based on [1140 CSS Grid](http://cssgrid.net/) and [Inuit CSS](http://csswizardry
 ## Things to Note:
 
 1. Keep the `.container` class on `<body>` where possible.
-2. Notice unlike many other grids, gridless does use a `.last` class (kudos to [csswizardry](http://csswizardy.com)).
+2. Notice unlike many other grids, gridless does use a `.last` class (kudos to [csswizardry](http://csswizardry.com)).
 3. Elements the overflow into a new row simply wrap into a new one.
 4. Configuration options can be set in `grid-config.less`.
 
